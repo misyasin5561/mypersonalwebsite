@@ -1,0 +1,168 @@
+
+body {
+    margin: 0;
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+    background-color: #4e1320;
+    color: #ffffff;
+    display: flex;
+  }
+  .aboutme{
+    display: flex;
+    column-gap: 40px;
+    height: 74%;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  
+  /* Sidebar*/
+  .sidebar {
+    width: 20%;
+    height: 87%;
+    padding: 20px;
+    background-color: #14c0f1;
+    text-align: center;
+  }
+  
+  
+  .avatar {
+    width: 200px;
+    border-radius: 50%;
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-left: 35px;
+  }
+  
+  .contact img{
+    height: 30px;
+    width: 30px;
+    margin-top: -5px;
+  }
+  .contact p {
+    margin: 10px 0;
+    display: flex;
+    column-gap: 15px;
+  }
+  .contact span, a {
+    color: #64ffda;
+    text-decoration: none;
+
+  }
+
+  
+  
+  
+  /* Nav bar*/
+  .content {
+    width: 75%;
+    padding: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #333;
+    background-color: #a41d35;
+    margin-top: -23px; 
+  }
+  
+  .tabs a {
+    color: #64ffda;
+    text-decoration: none;
+    padding: 10px 0;
+  }
+  
+  .tabs .active {
+    font-weight: bold;
+  }
+  
+  .about, .services {
+    margin-top: 20px;
+  }
+  
+  .service-card {
+    background-color: #14c0f1;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+
+  /* Education */
+  
+  .education-container {
+    width: 40%;
+    background-color: #14c0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .timeline {
+    position: relative;
+    margin-left: 10px;
+    padding-left: 0px;
+    border-left: 2px solid #242624 ;
+  }
+  
+  .timeline-item {
+    margin-bottom: 35px;
+    position: relative;
+  }
+
+  
+  .timeline-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #a41d35;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    transform: translate(-50%, -50%); /* Ortalamak için  */
+
+  }
+  .timeline-content {
+    margin-left: 20px;
+  }
+  
+  .timeline-content h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .timeline-content .date {
+    color: #64ffda;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .timeline-content p {
+    margin: 0;
+    font-size: 16px;
+    color: #cccccc;
+  }
+  .education-wrapper{
+    margin-top: -15px;
+  }
+  /* End  */
+  
+  /* Experience */
+  .experience-container {
+    width: 50%;
+    background-color: #14c0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .experience-wrapper{
+    margin-top: -15px;
+  }
+  /* END  */

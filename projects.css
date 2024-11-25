@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+    background-color: #4e1320;
+    color: #ffffff;
+    display: flex;
+   
+  }
+  html {
+    zoom: 80%; 
+}
+ 
+  
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 20%;
+    height: 93%;
+    padding: 20px;
+    background-color: #14c0f1;
+    text-align: center;
+
+  }
+  
+  .sidebar-wrapper{
+    margin-top: 70px;
+    transform: scale(1.25);
+
+  }
+  
+  .avatar {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-left: 70px;
+    text-align: center;
+  }
+  
+  .contact img{
+    height: 30px;
+    width: 30px;
+    margin-top: -5px;
+  }
+  .contact p {
+    margin: 10px 0;
+    display: flex;
+    column-gap: 15px;
+  }
+  .contact span, a {
+    color: #64ffda;
+    text-decoration: none;
+
+  }
+  
+
+  
+  /* Navbar */
+  .content {
+    width: 75%;
+    padding: 20px;
+    
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #333;
+    background-color: #a41d35;
+    margin-top: -23px; 
+
+  }
+  
+  .tabs a {
+    color: #64ffda;
+    text-decoration: none;
+    padding: 10px 0;
+  }
+  
+  .tabs .active {
+    font-weight: bold;
+  }
+  
+  .about, .services {
+    margin-top: 20px;
+  }
+  
+  .service-card {
+    background-color: #14c0f1;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+
+  /* Project*/
+  
+  .project-container{
+    background-color: #14c0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    row-gap: 15px;
+  }
+ 
+.project-container h1{
+  font-size: 4.5rem;
+  text-align: center;
+  align-items: center;
+}
+  
+.project {
+  background-color: #4e1320;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width:400px;
+  text-align: center;
+  height: 340px;
+}
+
+.project img {
+  width: 400px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+.project h2 {
+  font-size: 1.5rem;
+  margin: 20px 0 10px;
+  color: white;
+}
+
+.project p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+}
+.icons img{
+  width: 40px;
+  height: 40px;
+}
+
+button{
+   background-color:#ffcc00;;
+   color:white;
+  font-size: 25px;
+  margin-top: 8px;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+  /* End  */
+  
+  
